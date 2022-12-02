@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+a { text-decoration: none;
+    color: black;}
+
+header {
+    background-color: cyan;
+    position: fixed;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    padding: 15px;
+}
+
+header .button{
+    position: fixed;
+    right: 0;
+    top: 0;
+    display: flex;
+    gap: 10px;
+}
+
+header .pages{
+    font-size: 20px;;
+    display: flex;
+    gap: 10px;
+}
+
+header nav ion-icon{
+    --ionicon-stroke-width: 35px;
+    font-size: 40px;
+}
+
+.about {
+    text-align: center;
+    margin-top: 270px;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 70px;
+}
+
+.product-item {
+    background-color: gray;
+    margin: 10px;
+    text-align: center;
+    padding: 30px;
+}
+
+.product-item img {
+    border-radius: 5px;
+    width: 100%;
+    object-fit: cover;
+}
+
+form{
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    padding: 20px;
+	width: 200px;
+    text-align: center;
+	margin: 15% auto 15% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input[type=email], input[type=text], input[type=password] {
+    padding: 3px;
+    margin: 8px;
+    border: 2px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    background-color: cyan;
+    position: fixed;
+    bottom: 0;
+    height: 70px;
+    width: 100%;
+}
